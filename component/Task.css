@@ -1,0 +1,14 @@
+.save-edit-btn, 
+.delete-btn {
+    border: 1px solid white;
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+}
+
+
+.text-container input {
+    margin-right: 10px;
+}
+

@@ -1,0 +1,94 @@
+body {
+    margin: 0; 
+    font-family: sans-serif;
+
+    background: url('../img/home-pic.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.new-task-container {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 2rem 0  0.5rem 0; 
+}
+
+
+.new-task {
+    display: flex;
+    justify-content:flex-start;
+
+    border: 1px solid white;
+
+    border-radius: 1rem;
+
+    width: 60%;
+    height: 40px;
+}
+
+
+.new-task input {
+    appearance: none;
+
+    border: none; 
+    outline: none; 
+    background: none;
+
+    font-size: 1rem; 
+
+    margin:5px; 
+
+    color: var(--text-color);
+}
+
+
+.new-task input::placeholder {
+    color: var(--text-color);
+}
+
+
+.new-task-label {
+    color: var(--text-color);
+}
+
+.new-task-button {
+    margin-left: 10px;
+}
+
+
+.new-task-button button {
+    border: 1px solid white;
+    background: transparent;
+
+    border-radius: 10px;
+
+    padding: 5px 20px;
+
+    color: var(--text-color);
+}
+
+
+.new-task-button button:hover {
+    opacity: 0.8;
+}
+
+
+.new-task-button button:active {
+    opacity: 0.6;
+}
+
+
+.msg-container {
+    display: flex;
+    justify-content:center;
+
+}
+
+.msg-container p {
+    color: var(--text-color);
+}

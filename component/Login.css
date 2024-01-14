@@ -1,0 +1,31 @@
+.login-button {
+    background-color: var(--primary-color);
+
+    border-radius: 15px;
+
+    padding: 2px 15px;
+
+    font: inherit;
+
+    cursor: pointer;
+
+}
+
+
+.btn-container button,
+.register-container button {
+    border-radius: 10px;
+
+    background-color: var(--secondary-color);
+
+    color:var(--text-color);
+    margin-left: 10px;
+}
+
+
+
+.register-container {
+    display: flex;
+    justify-content:column;
+    align-items: center;
+}

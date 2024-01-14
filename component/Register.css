@@ -1,0 +1,138 @@
+
+.form {
+    display: flex; 
+    justify-content: center;
+
+    width: 100%; 
+    min-height: 80vh;
+
+    align-items: center; 
+    
+    padding: 2rem;
+
+    background: url('../img/form_pic.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-form {
+    background-color:--quaternary-color;
+
+    width: 60%; 
+    height: 60%;
+
+    border-radius: 10px;
+
+    padding: 10px 40px
+}
+
+.form-title {
+    display: flex; 
+    justify-content: center;
+
+    color: var(--text-color);
+}
+
+
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 50%;
+
+
+}
+
+.input-box {
+    width:100%; 
+}
+
+
+
+.input-box input {
+    width: 100%; 
+    height: 30px;
+
+    border: none; 
+    outline:none;
+
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+
+    background:transparent;
+}
+
+
+.form-field input::placeholder {
+    color: var(--text-color);
+
+    font-size: 12px;
+
+    padding:20px 45px 20px 20px; 
+
+}
+
+
+.form-field label {
+    font-size: small;
+
+    color: var(--text-color);
+}
+
+
+.form-check {
+    font-size: small;
+
+    color: var(--text-color);
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+
+.form-button {
+    width: 100%; 
+    height: 30px; 
+
+    background: var(--text-color);
+
+    border: none; 
+    outline: none; 
+
+    border-radius: 10px;
+}
+
+
+
+@media (min-width: 44rem) {
+    .main-form {
+        width:50%;
+    }
+
+    .form-field {
+        flex-direction: row;
+
+        margin: 10px 10px
+    }
+
+    .input-box {
+        flex: 1; 
+
+        margin: 0px 5px 0px 5px; 
+    }
+
+    .form-check {
+        margin: 10px 10px
+
+    }
+
+
+
+}

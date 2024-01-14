@@ -1,0 +1,43 @@
+.main-container {
+    display: flex;
+
+    margin: 10px 30px 0 30px;
+
+}
+
+.greet-bar {
+    flex: 1; 
+
+    display: flex;
+    align-items: center;
+
+    height: 20px;
+
+    font-size: 14px;
+    font-style:oblique;   
+}
+
+.greet-info {
+    display: inline-block;
+
+    color: var(--text-color)
+
+}
+
+.search-bar {
+    flex: 5;
+
+    background-color:aliceblue;
+    border-radius: 30px;
+
+}
+
+.search-bar input {
+    background: transparent;
+    
+    flex: 1; 
+    border: 0; 
+    outline: none;
+
+    margin:5px; 
+}

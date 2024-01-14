@@ -1,0 +1,19 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #18122B;
+    --secondary-color: #393053;
+    --tertiary-color: #443C68;
+    --quaternary-color: #635985;
+    --text-color:whitesmoke; 
+  }
+
+
+
+.main {
+    height: 80vh;
+}
+  
